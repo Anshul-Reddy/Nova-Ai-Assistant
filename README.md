@@ -6,7 +6,7 @@ A modern AI chatbot built using **Python**, **Flask**, and **Google's Gemini API
 
 ## 📸 Preview
 
-> Add screenshots here after uploading them to the `screenshots/` folder.
+
 
 ### Home
 ![Home](screenshots/home.png)
@@ -18,14 +18,14 @@ A modern AI chatbot built using **Python**, **Flask**, and **Google's Gemini API
 
 ## ✨ Features
 
-- 💬 AI-powered conversations using Google's Gemini API
-- 🧠 Conversation memory
-- 📝 Markdown formatted responses
-- 🎨 Modern responsive UI
-- 🗑️ Clear Chat functionality
-- ⚡ Fast Flask backend
-- 🔍 Automatic detection of search-related prompts
-- ⚠️ Friendly error handling for API issues
+-  AI-powered conversations using Google's Gemini API
+-  Conversation memory
+-  Markdown formatted responses
+-  Modern responsive UI
+-  Clear Chat functionality
+-  Fast Flask backend
+-  Automatic detection of search-related prompts
+-  Friendly error handling for API issues
 
 ---
 
@@ -162,7 +162,3 @@ http://127.0.0.1:5000
 If you found this project useful or interesting, consider giving it a ⭐ on GitHub!
 
 ---
-
-## 📄 License
-
-This project is open source and available under the MIT License.
