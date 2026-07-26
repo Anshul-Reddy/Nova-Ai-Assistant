@@ -6,11 +6,6 @@ A modern AI chatbot built using **Python**, **Flask**, and **Google's Gemini API
 
 ## 📸 Preview
 
-
-
-### Home
-![Home](screenshots/home.png)
-
 ### Chat Demo
 ![Chat Demo](Chat-demo2.png)
 
