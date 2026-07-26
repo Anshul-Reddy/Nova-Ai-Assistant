@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chatbot</title>
+    
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🤖 Nova AI Assistant</h1>
+        <p class="subtitle">Powered by Google Gemini API</p>
+
+        <div class="chat-box">
+            {% for msg in chat_history %}
+
+                {% if msg.role == "user" %}
+                <div class="user-message">
+                    {{msg.message}}
+                </div>
+
+                {% else %}
+                <div class="gemini-message">
+                    {{msg.message | safe }}
+                </div>
+
+                {% endif %}
+
+            {% endfor %}
+        </div>
+
+        <form method="POST">
+            <input type="text" name="message" placeholder="Type your message...">
+
+            <button type="submit" name="action" value="send">
+                Send
+            </button>
+
+            <button type="submit" name=action value="clear">
+                Clear
+            </button>
+
+        </form>
+    </div>
+    
+</body>
+
+</html>
